@@ -1,4 +1,4 @@
-#Liste *maîtresse*
+# Liste *maîtresse*
 Cette liste doit être appliquée à toutes les productions de la SOFAD.
 
 ## Buts
