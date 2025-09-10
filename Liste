@@ -1,0 +1,11 @@
+# Critères d’acceptation
+
+## Objectif
+Permettre à l’utilisateur de téléverser un fichier PDF via le formulaire.
+
+## Critères
+
+- [ ] L’utilisateur peut sélectionner un fichier PDF depuis son appareil.
+
+## Validation
+Responsable QA : François Tessier
