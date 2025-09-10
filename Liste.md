@@ -26,4 +26,4 @@ Assurer la qualité des produits numériques de la SOFAD.
     - Titre > Sous-titre > Paragraphe
  
 ## Validation
-Responsable QA : François Tessier
+Responsable QA : XX
