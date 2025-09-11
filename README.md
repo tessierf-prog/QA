@@ -1,5 +1,5 @@
 # Liste *maîtresse*
-Cette liste doit être appliquée à toutes les productions de la SOFAD.
+Cette liste doit être appliquée à toutes les productions numériques de la SOFAD.
 
 ## Buts
 - Assurer la qualité de nos produits
