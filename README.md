@@ -1,5 +1,5 @@
-# Liste *maîtresse*
-Cette liste doit être appliquée aux productions numériques.
+# Critères d'acceptation
+Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.
 
 ## Buts
 - Assurer la qualité de nos produits
