@@ -14,4 +14,4 @@ Guide pour assurer l'assurance qualité et l'accessibilité des produits numéri
 
 ---
 Contributeurices
-- François Tessier (tesssief@sofad.qc.ca)
+- François Tessier (tesssief@sofad.qc.ca - ephthe@gmail.com)
