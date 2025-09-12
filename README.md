@@ -1,4 +1,4 @@
-# Assurance Qualité et Accessibilité
+# Assurance Qualité & Accessibilité
 Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.
 
 `Liste.md` présente les critères d'acceptation.
@@ -6,9 +6,10 @@ Guide pour assurer l'assurance qualité et l'accessibilité des produits numéri
 Le dossier `exemples` contient des références HTML et CSS pour faciliter l'intégration. 
 
 ## Buts
-- Assurer la qualité de nos produits
-- Assurer l'accessibilité universelle de nos produits
-- Offrir une source collaborative et unique
+- Assurer la qualité des produits numériques ;
+- Viser l'accessibilité universelle ;
+- Offrir une source collaborative et commune ;
+- Standardisation des pratiques d'intégration ;
 
 ---
 
