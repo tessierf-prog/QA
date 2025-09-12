@@ -4,7 +4,7 @@ Guide pour assurer l'assurance qualité et l'accessibilité des produits numéri
 ## Contenus
 - `Liste.md` présente les critères d'acceptation.
 - Le dossier `exemples` contient des références HTML et CSS pour faciliter l'intégration. 
-- Le dossier `tests automatisés` contient des tests Playwright en TypeScript.
+- Le dossier `tests automatisés` contient des tests automatisés Playwright en TypeScript.
 
 ## Buts
 - Assurer la qualité des produits numériques ;
@@ -13,5 +13,4 @@ Guide pour assurer l'assurance qualité et l'accessibilité des produits numéri
 - Standardisation des pratiques d'intégration ;
 
 ---
-
 Présenté par François Tessier (tesssief@sofad.qc.ca)
