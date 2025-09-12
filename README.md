@@ -1,5 +1,5 @@
 # Assurance Qualité et Accessibilité
-Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.  Consultez [Liste.md]
+Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.
 
 ## Buts
 - Assurer la qualité de nos produits
