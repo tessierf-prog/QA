@@ -13,4 +13,5 @@ Guide pour assurer l'assurance qualité et l'accessibilité des produits numéri
 - Standardisation des pratiques d'intégration ;
 
 ---
-Présenté par François Tessier (tesssief@sofad.qc.ca)
+Contributeurices
+- François Tessier (tesssief@sofad.qc.ca)
