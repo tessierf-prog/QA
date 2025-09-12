@@ -8,4 +8,4 @@ Cette liste doit être appliquée à toutes les productions numériques de la SO
 
 ---
 
-Présenté par François Tessier (tesssief@sofad.qc.ca - ephthe@gmail.com)
+Présenté par François Tessier (tesssief@sofad.qc.ca)

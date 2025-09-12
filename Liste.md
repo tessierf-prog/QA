@@ -1,8 +1,3 @@
-# Critères d’acceptation QA
-
-## Objectif
-Assurer la qualité des produits numériques de la SOFAD.
-
 # Accessibilité
 
 ## 1. Perception
@@ -18,10 +13,17 @@ Assurer la qualité des produits numériques de la SOFAD.
     - label associés aux input 
     - listes ordonnées
     - balissage sémantique (header, nav, article, section)
-- [ ] La représentation des contenus est cohérente avec l'ordre dans lequel elles sont codées
+- [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
     - HTML suit une structure logique
     - Ne pas utiliser CSS ou JS pour réorganiser visuellement
     - Titre > Sous-titre > Paragraphe
- 
+- [ ] Les instructions pour utiliser le site ne repose pas sur des caractéristiques sensoriels
+    - Formes
+    - Couleurs
+    - Taille
+ - [ ] Les buts des entrées de formulaire sont identifiés dans le code
+    - Labels explicites
+    - Utilisation de aria-label
+
 ## Validation
 Responsable QA : à venir
