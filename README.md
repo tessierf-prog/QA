@@ -1,9 +1,10 @@
 # Assurance Qualité & Accessibilité
 Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.
 
-`Liste.md` présente les critères d'acceptation.
-
-Le dossier `exemples` contient des références HTML et CSS pour faciliter l'intégration. 
+## Contenus
+- `Liste.md` présente les critères d'acceptation.
+- Le dossier `exemples` contient des références HTML et CSS pour faciliter l'intégration. 
+- Le dossier `tests automatisés` contient des tests Playwright en TypeScript.
 
 ## Buts
 - Assurer la qualité des produits numériques ;
