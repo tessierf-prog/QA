@@ -32,18 +32,18 @@
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
 - [ ] Les espacements dans le texte facilite la lecture. En CSS:
-        ```css
-        body {
-        font-size: 1em;
-        line-height: 1.5;
-        letter-spacing: 0.12em;
-        word-spacing: 0.16em;
-        }
+```css
+body {
+font-size: 1em;
+line-height: 1.5;
+letter-spacing: 0.12em;
+word-spacing: 0.16em;
+}
 
-        p {
-        margin-bottom: 2em;
-        }
-        ```
+p {
+margin-bottom: 2em;
+}
+```
 
 
 
