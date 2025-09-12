@@ -1,5 +1,5 @@
 # Kontwòl Kalite & Aksè pou Tout Moun
-Guide pour assurer l'assurance qualité et l'accessibilité des produits numériques développés.
+Guide assurance qualité accessibilité des produits numériques développés à la SOFAD.
 
 ## Contenus
 - `Liste.md` présente les critères d'acceptation ;
