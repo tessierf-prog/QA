@@ -9,9 +9,8 @@
 ### 1.3 Adaptable
 - [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
     - Titres et sous-titres
-    - Tableaux : voir tableau.html
-    - label associés aux input 
-    - listes ordonnées
+    - Tableaux : voir `tableau.html`
+    - Formulaires : voir `formulaire.html`
     - balissage sémantique (header, nav, article, section)
 - [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
     - HTML suit une structure logique
