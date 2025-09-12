@@ -31,11 +31,20 @@
 - [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture.  Références:
-    - Line height 1.5 fois la taille de la police
-    - Espace entre les paragraphes 2 fois la taille de police
-    - Espace entre les lettres 0.12 fois la taille de la police
-    - Espace entre les mots 0.16 fois la taille de la police
+- [ ] Les espacements dans le texte facilite la lecture. En CSS:
+        ```css
+        body {
+        font-size: 1em;
+        line-height: 1.5;
+        letter-spacing: 0.12em;
+        word-spacing: 0.16em;
+        }
+
+        p {
+        margin-bottom: 2em;
+        }
+```
+
 
 
 ## Validation
