@@ -1,19 +1,17 @@
-# Critères d’acceptation
+# Critères d’acceptation QA
 
 ## Objectif
 Assurer la qualité des produits numériques de la SOFAD.
 
-## Critères
+# Accessibilité
 
-### Accessibilité
+## 1. Perception
 
-#### 1. Perception
-
-##### 1.1 Alternatives textuelles
+### 1.1 Alternatives textuelles
 - [ ] Offrir une alternative textuelle pour les contenus non-textuels
-##### 1.2 Audio / Vidéo
+### 1.2 Audio / Vidéo
 - [ ] Offrir une transcription pour les contenus temporels (audio et vidéo)
-##### 1.3 Adaptable
+### 1.3 Adaptable
 - [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
     - Titres et sous-titres
     - Entête de tableaux
@@ -26,4 +24,4 @@ Assurer la qualité des produits numériques de la SOFAD.
     - Titre > Sous-titre > Paragraphe
  
 ## Validation
-Responsable QA : XX
+Responsable QA : à venir
