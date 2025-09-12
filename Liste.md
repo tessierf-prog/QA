@@ -9,8 +9,8 @@
 ### 1.3 Adaptable
 - [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
     - Titres et sous-titres
-    - Tableaux : voir `tableau.html`
-    - Formulaires : voir `formulaire.html`
+    - Tableaux : voir `exemples/tableau.html`
+    - Formulaires : voir `exemples/formulaire.html`
     - balissage sémantique (header, nav, article, section)
 - [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
     - HTML suit une structure logique
@@ -30,7 +30,7 @@
 - [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture. Voir : `accessibilite.css`
+- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/typographie.css`
 
 
 
