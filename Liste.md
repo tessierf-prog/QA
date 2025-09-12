@@ -31,19 +31,8 @@
 - [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture. En CSS:
-```css
-body {
-font-size: 1em;
-line-height: 1.5;
-letter-spacing: 0.12em;
-word-spacing: 0.16em;
-}
+- [ ] Les espacements dans le texte facilite la lecture. Voir accessibilite.css
 
-p {
-margin-bottom: 2em;
-}
-```
 
 
 
