@@ -13,6 +13,9 @@
 - [ ] La déconnexion des services privés est facilement accessible.
 - [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  Voir `exemples/html/referrers.html`
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Voir `exemples/html/target_blank.html`
+- [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
+
+## 3. Commerce
 
 ---
 
