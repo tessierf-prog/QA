@@ -1,3 +1,18 @@
+<button onclick="copyFile()" style="padding: 10px; margin: 10px; background-color: #0066cc; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Créer une nouvelle copie
+</button>
+
+<script>
+function copyFile() {
+    const newName = prompt("Entrez le nouveau nom du fichier (sans .md):");
+    if (newName) {
+        // Cette partie nécessite une intégration avec VS Code
+        // Vous devrez implémenter la logique de copie de fichier
+        console.log(`Copie vers: ${newName}.md`);
+    }
+}
+</script>
+
 # Qualité
 <details>  
 <summary><h2>Contenu</h2></summary>
