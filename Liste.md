@@ -30,8 +30,17 @@
 - [ ] L'adresse et les conditions de retour sont indiquées.
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
+- [ ] ~~Une adresse de livraison différente de l'adresse de facturation peut être spécifiée.~~
+- [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle. 
 
-
+## 4. Formulaires
+- [ ] L'étiqutte de chaque champs indique, le cas échéant
+    - le format de saisie attentu
+    - Sensible à la case
+    - Limite de caractères
+- [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
+- [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
+ 
 
 
 ---
@@ -41,25 +50,31 @@
 ## 1. Perception
 
 ### 1.1 Alternatives textuelles
+#### 1.1.1 
 - [ ] Offrir une alternative textuelle pour les contenus non-textuels
 ### 1.2 Audio / Vidéo
+#### 1.2.1
 - [ ] Offrir une transcription pour les contenus temporels (audio et vidéo)
 ### 1.3 Adaptable
+#### 1.3.1
 - [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
     - Titres et sous-titres
     - Tableaux : voir `exemples/html/tableau.html`
     - Formulaires : voir `exemples/html/formulaire.html`
     - balissage sémantique (header, nav, article, section)
+#### 1.3.2
 - [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
     - HTML suit une structure logique
     - Ne pas utiliser CSS ou JS pour réorganiser visuellement
     - Titre > Sous-titre > Paragraphe
+#### 1.3.3 
 - [ ] Les instructions pour utiliser le site ne repose pas sur des caractéristiques sensoriels
     - Formes
     - Couleurs
     - Taille
+#### 1.3.4
  - [ ] Les buts des entrées de formulaire sont identifiés dans le code
-    - Labels explicites
+    - Étiquettes (labels) explicites
     - Utilisation de aria-label
 ### 1.4 Distinguable
 - [ ] L'utilisation de la couleur n'est pas le seul moyen pour transmettre l'information.
