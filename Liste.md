@@ -1,6 +1,6 @@
 # Qualité
 <details>  
-<summary><h2>1. Contenu</h2></summary>
+<summary><h2>Contenu</h2></summary>
 
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
@@ -10,7 +10,7 @@
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
 <details>
-<summary><h2>2. Données personnelles</h2></summary>
+<summary><h2>Données personnelles</h2></summary>
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
@@ -19,7 +19,7 @@
 - [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 </details>
 <details>
-<summary><h2>3. Commerce</h2></summary>
+<summary><h2>Commerce</h2></summary>
 
 - [ ] Possible d'acheter un produit ou service sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
@@ -38,7 +38,7 @@
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle. 
 </details>
 <details>
-<summary><h2>4. Formulaires</h2></summary>
+<summary><h2>Formulaires</h2></summary>
 
 - [ ] L'étiqutte de chaque champs indique, le cas échéant
     - le format de saisie attentu
@@ -56,7 +56,7 @@
 - [ ] Les différents types de champs de saisie sont identifiés.   Voir :  `exemples/html/formulaire.html`
 </details> 
 <details>
-<summary><h2>5. Identification et contact</h2></summary>
+<summary><h2>Identification et contact</h2></summary>
 
 - [ ] Le titre de chaque page est sous le format :
     - Le contenu de la page
@@ -69,10 +69,28 @@
 - [ ] L'adresse complète et les numéros de téléphone sont disponibles depuis toutes les pages du site.
 - [ ] Le site propose au moins deux moyens de contact.
 - [ ] Le délai de réponse est indiqué.
-- [ ] Chaque demande d'information produit un accusé de réception.
-
-
+- [ ] Chaque demande d'information émet un accusé de réception.
+- [ ] L'identité de la personne ou du service responsable du contenu est indiqué.
 </details> 
+<details>
+<summary><h2>Images et médias</h2></summary>
+
+- [ ] Règle 1.1.1 d'accessibilité sur les alternatives textuels  (note: faire test automatique)
+- [ ] Le rôle des images décoratives est déclaré. Voir `exemples/html/images.html`
+- [ ] Les images complexes fournissent une descrition longue. Voir `exemples/html/images.html`
+- [ ] Les vignettes ne sont pas des images redimentionées côté client.
+- [ ] Chaque contenu audio et vidéo est accompagné de sa transcription textuelle. 
+- [ ] Les vidéos comportent des sous-titres synchronisés. 
+- [ ] La durée des contenus vidéo ou audio est indiquée. 
+- [ ] Les vidéos et les audios sont toujours déclanchés par l'utilisateurice.
+- [ ] Les animations, sons et clignotements peuvent être mis en pause. 
+</details> 
+<details>
+<summary><h2>Liens</h2></summary>
+
+- [ ] règle 1
+</details> 
+
 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
