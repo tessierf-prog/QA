@@ -1,6 +1,6 @@
 # Qualité
 <details>  
-<summary>## 1. Contenu</summary>
+<summary><h2>1. Contenu</h2></summary>
 
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
@@ -10,7 +10,7 @@
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
 <details>
-<summary>## 2. Données personnelles</summary>
+<summary<h2>2. Données personnelles</h2></summary>
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
@@ -19,7 +19,7 @@
 - [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 </details>
 <details>
-<summary>## 3. Commerce<summary>
+<summary><h2>3. Commerce</h2></summary>
 
 - [ ] Possible d'acheter un produit ou service sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
@@ -38,7 +38,7 @@
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle. 
 </details>
 <details>
-<summary>## 4. Formulaires</summary>
+<summary><h2>4. Formulaires</h2></summary>
 
 - [ ] L'étiqutte de chaque champs indique, le cas échéant
     - le format de saisie attentu
