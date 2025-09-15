@@ -1,4 +1,4 @@
-# Kontwòl Kalite & Aksè pou Tout Moun
+# Qualité & inclusion
 Guide d'assurance qualité et d'accessibilité pour les produits numériques développés à la SOFAD.
 
 ## Buts
