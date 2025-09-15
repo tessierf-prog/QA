@@ -1,8 +1,6 @@
 # Qualité  - Inspirée de OpQuast
   
 ## 1.0 Contenu
-
-### 1.1
 - [ ] Les nouveaux contenus sont facilement identifiables
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/description.html`
