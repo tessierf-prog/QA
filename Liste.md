@@ -63,12 +63,17 @@
     - Séparateur, tiret moyen (`-`)
     - Nom du site
 ```html
-<title>Contenu de la page suivi d'un séparateur tiret moyen (`-`) suivi du nom du site </title>
+<title>Contenu de la page - suivi du nom du site </title>
 ```
 - [ ] Chaque page contient un appel valide à une icône de favori (note: faire test automatique).
+- [ ] L'adresse complète et les numéros de téléphone sont disponibles depuis toutes les pages du site.
+- [ ] Le site propose au moins deux moyens de contact.
+- [ ] Le délai de réponse est indiqué.
+- [ ] Chaque demande d'information produit un accusé de réception.
 
 
 </details> 
+
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
 ---
