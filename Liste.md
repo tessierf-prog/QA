@@ -53,7 +53,8 @@
 
 # Accessibilité
 
-## 1. Perception
+<details>
+<summary><h2>1. Perception</h2></summary>
 
 ### 1.1 Alternatives textuelles
 #### 1.1.1 
@@ -90,6 +91,7 @@
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
 - [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/css/typographie.css`
+</details> 
 
 ## Validation
 Responsable QA : à venir
