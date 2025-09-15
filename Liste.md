@@ -10,7 +10,7 @@
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
 <details>
-<summary<h2>2. Données personnelles</h2></summary>
+<summary><h2>2. Données personnelles</h2></summary>
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
