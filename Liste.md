@@ -1,6 +1,7 @@
 # Qualité
 <details>  
 <summary>## 1. Contenu</summary>
+
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/html/description.html`.
@@ -8,14 +9,18 @@
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
-## 2. Données personnelles
+<details>
+<summary>## 2. Données personnelles</summary>
+
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
 - [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  Voir `exemples/html/referrers.html`
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Voir `exemples/html/target_blank.html`
 - [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
+</details>
+<details>
+<summary>## 3. Commerce<summary>
 
-## 3. Commerce
 - [ ] Possible d'acheter un produit ou service sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
 - [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
@@ -31,15 +36,17 @@
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle. 
+</details>
+<details>
+<summary>## 4. Formulaires</summary>
 
-## 4. Formulaires
 - [ ] L'étiqutte de chaque champs indique, le cas échéant
     - le format de saisie attentu
     - Sensible à la case
     - Limite de caractères
 - [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
- 
+</details> 
 
 
 ---
