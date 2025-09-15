@@ -1,3 +1,13 @@
+# Qualité
+
+## 1.0 Contenu
+
+### 1.1
+- [ ] Les nouveaux contenus sont facilement identifiables
+- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages
+- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu  
+
+
 # Accessibilité
 
 ## 1. Perception
@@ -31,9 +41,6 @@
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
 - [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/typographie.css`
-
-
-
 
 ## Validation
 Responsable QA : à venir
