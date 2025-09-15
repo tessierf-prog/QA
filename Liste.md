@@ -4,7 +4,7 @@
 - [ ] Les nouveaux contenus sont facilement identifiables
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/description.html`
-- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/abreviation.html`
+- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/abreviation.html` et `exemples/accessibilite.html`
 
 ---
 
@@ -40,7 +40,7 @@
 - [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/typographie.css`
+- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/accessibilite.css`
 
 ## Validation
 Responsable QA : à venir
