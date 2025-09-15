@@ -9,7 +9,8 @@ Guide d'assurance qualité et d'accessibilité pour les produits numériques dé
 
 ## Contenus
 - `Liste.md` présente les critères d'acceptation ;
-- Le dossier `exemples` contient des références HTML et CSS pour faciliter l'intégration ; 
+- Le dossier `exemples/html` contient des références HTML pour faciliter l'intégration ; 
+- Le dossier `exemples/css` contient des références CSS pour faciliter l'intégration ; 
 - Le dossier `tests automatisés` contient des tests automatisés Playwright écrit en TypeScript ;
 
 ---

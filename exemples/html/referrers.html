@@ -1,0 +1,15 @@
+<head>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+</head>
+<!--
+Valeurs possibles pour l'attribut content :
+
+- strict-origin-when-cross-origin : L'option la plus équilibrée. Envoie le referrer pour les requêtes de même origine et pour les requêtes cross-origin si la navigation se fait vers une page de même niveau de sécurité (HTTPS -> HTTPS). Ne l'envoie pas pour les requêtes cross-origin si la navigation se fait vers une page de niveau de sécurité inférieur (HTTPS -> HTTP).
+- no-referrer : Ne pas envoyer d'information de référence.
+- no-referrer-when-downgrade : Envoyer uniquement pour les connexions HTTPS vers HTTPS. (Comportement par défaut des navigateurs, mais déconseillé car il peut exposer des informations sur les pages HTTPS lors de la navigation vers des pages HTTP.)
+- origin : N'envoyer que l'origine (schéma, hôte, port) de la page référente.
+- origin-when-cross-origin : Envoyer l'origine pour les requêtes cross-origin, et l'URL complète pour les requêtes de même origine.
+- same-origin : N'envoyer le referrer que pour les requêtes de même origine.
+- unsafe-url : Toujours envoyer l'URL complète, même pour les requêtes cross-origin. (Non recommandé car cela peut exposer des informations
+
+-->

@@ -9,6 +9,9 @@
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 
 ## 2. Données personnelles
+- [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
+- [ ] La déconnexion des services privés est facilement accessible.
+- [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  Voir `exemples/html/referrers.html`
 
 
 ---
