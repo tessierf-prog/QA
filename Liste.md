@@ -46,8 +46,17 @@
     - Limite de caractères
 - [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
+- [ ] Des avertissements sont présentés lors d'un formulaire qui accompagne un processus complexe :
+    - Nature des données ou documents exigés
+    - Liste des étapes
+    - L'étape en cours
+    - Les étapes permettent de revenir à l'étape précédente
+    - Les conséquences d'utiliser la navigation par l'historique sont expliquées (pertes en cas d'utilisation du bouton "Retour")
+- [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable. Voir :  `exemples/html/formulaire.html`
+- [ ] Les différents types de champs de saisie sont identifiés.   Voir :  `exemples/html/formulaire.html`
 </details> 
 
+##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
 ---
 
@@ -92,6 +101,8 @@
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
 - [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/css/typographie.css`
 </details> 
+
+##### Références : https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html
 
 ## Validation
 Responsable QA : à venir
