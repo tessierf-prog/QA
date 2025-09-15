@@ -1,0 +1,28 @@
+name: Créer un projet depuis Liste.MD
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: 'francoistessier'
+          REPO_NAME: 'QA-Acceptartion'
+          MARKDOWN_FILE: 'Liste.MD'
+          PROJECT_NAME: 'Import depuis Liste.MD'
+        run: python create_project_from_md.py
