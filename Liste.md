@@ -1,10 +1,15 @@
 # Qualité  - Inspirée de OpQuast
   
-## 1.0 Contenu
-- [ ] Les nouveaux contenus sont facilement identifiables
-- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages
-- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/description.html`
-- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/abreviation.html` et `exemples/accessibilite.html`
+## 1. Contenu
+- [ ] Les nouveaux contenus sont facilement identifiables.
+- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
+- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/html/description.html`.
+- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/html/abreviation.html` et `exemples/css/abbreviation.css`.
+- [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
+- [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
+
+## 2. Données personnelles
+
 
 ---
 
@@ -19,8 +24,8 @@
 ### 1.3 Adaptable
 - [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
     - Titres et sous-titres
-    - Tableaux : voir `exemples/tableau.html`
-    - Formulaires : voir `exemples/formulaire.html`
+    - Tableaux : voir `exemples/html/tableau.html`
+    - Formulaires : voir `exemples/html/formulaire.html`
     - balissage sémantique (header, nav, article, section)
 - [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
     - HTML suit une structure logique
@@ -40,7 +45,7 @@
 - [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
 - [ ] Outre les logos, les images ne présentent pas du texte
 - [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/accessibilite.css`
+- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/css/typographie.css`
 
 ## Validation
 Responsable QA : à venir
