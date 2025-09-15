@@ -1,13 +1,13 @@
-# Qualité  - Inspirée de OpQuast
-  
-## 1. Contenu
+# Qualité
+<details>  
+<summary>## 1. Contenu</summary>
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  Voir `exemples/html/description.html`.
 - [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/html/abreviation.html` et `exemples/css/abbreviation.css`.
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
-
+</details>
 ## 2. Données personnelles
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
@@ -30,7 +30,6 @@
 - [ ] L'adresse et les conditions de retour sont indiquées.
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
-- [ ] ~~Une adresse de livraison différente de l'adresse de facturation peut être spécifiée.~~
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle. 
 
 ## 4. Formulaires
