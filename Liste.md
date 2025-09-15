@@ -55,7 +55,20 @@
 - [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable. Voir :  `exemples/html/formulaire.html`
 - [ ] Les différents types de champs de saisie sont identifiés.   Voir :  `exemples/html/formulaire.html`
 </details> 
+<details>
+<summary><h2>5. Identification et contact</h2></summary>
 
+- [ ] Le titre de chaque page est sous le format :
+    - Le contenu de la page
+    - Séparateur, tiret moyen (`-`)
+    - Nom du site
+```html
+<title>Contenu de la page suivi d'un séparateur tiret moyen (`-`) suivi du nom du site </title>
+```
+- [ ] Chaque page contient un appel valide à une icône de favori (note: faire test automatique).
+
+
+</details> 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
 ---
