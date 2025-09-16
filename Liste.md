@@ -121,9 +121,18 @@
 <details>
 <summary><h2>Présentation</h2></summary>
 
-- [ ] 
+- [ ] La charte graphique est conhérente et constante.
+- [ ] L'information n'est pas véhiculée uniquement par la couleur.
+- [ ] Les contenus sont présentés avec un contraste suffisant avec l'arrière-plan (4.5:1)
+- [ ] La taille des éléments cliquables est suffisante (44px X 44px). 
+- [ ] Les styles ne justifient pas le texte. 
+- [ ] Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles. 
 </details> 
+<details>
+<summary><h2>Sécurité</h2></summary>
 
+- [ ] sec 
+</details> 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
 ---
