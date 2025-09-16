@@ -137,7 +137,10 @@
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 ---
 # WCAG AA
-## Principe 1 - Percevable
+
+<details>
+<summary><h2>Principe 1 - Percevable</h2></summary>
+
 - [ ] Fournir une alternative textuelle pour tout contenu non textuel afin de garantir une accessibilité équivalente.
 - [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
 - [ ] Fournir des sous-titres pour les contenus audio préenregistrés.
@@ -156,9 +159,13 @@
 - [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
 - [ ] Permettre des ajustements de style de texte sans perte de contenu ou de fonctionnalité.
 - [ ] Veillez à ce que le contenu déclenché par le survol ou la mise en évidence soit gérable et dissociable.
-## Principe 2 Exploitable
+</details> 
 
-
+## Principe 2 - Exploitable
+<details>
+<summary><h2>Principe 2 - Exploitablee</h2></summary>
+- [ ]
+</details> 
 
 
 
