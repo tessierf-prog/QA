@@ -40,6 +40,7 @@
 <details>
 <summary><h2>Formulaires</h2></summary>
 
+- Exemples : `exemples/html/formulaire.html`
 - [ ] L'étiqutte de chaque champs indique, le cas échéant
     - le format de saisie attentu
     - Sensible à la case
@@ -52,8 +53,8 @@
     - L'étape en cours
     - Les étapes permettent de revenir à l'étape précédente
     - Les conséquences d'utiliser la navigation par l'historique sont expliquées (pertes en cas d'utilisation du bouton "Retour")
-- [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable. Voir :  `exemples/html/formulaire.html`
-- [ ] Les différents types de champs de saisie sont identifiés.   Voir :  `exemples/html/formulaire.html`
+- [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable.
+- [ ] Les différents types de champs de saisie sont identifiés. 
 </details> 
 <details>
 <summary><h2>Identification et contact</h2></summary>
@@ -75,9 +76,10 @@
 <details>
 <summary><h2>Images et médias</h2></summary>
 
+- Exemples : `exemples/html/images.html`
 - [ ] Règle 1.1.1 d'accessibilité sur les alternatives textuels  (note: faire test automatique)
-- [ ] Le rôle des images décoratives est déclaré. Voir `exemples/html/images.html`
-- [ ] Les images complexes fournissent une descrition longue. Voir `exemples/html/images.html`
+- [ ] Le rôle des images décoratives est déclaré. 
+- [ ] Les images complexes fournissent une descrition longue. 
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
 - [ ] Chaque contenu audio et vidéo est accompagné de sa transcription textuelle. 
 - [ ] Les vidéos comportent des sous-titres synchronisés. 
@@ -88,8 +90,9 @@
 <details>
 <summary><h2>Liens</h2></summary>
 
-- Résumé : `exemples/html/liens.html`
-- [ ] Pas de lien sans intitulé textuel et l'intitulé décrit la fonction du lien. 
+- Exemples : `exemples/html/liens.html`
+- [ ] Pas de lien sans intitulé textuel.
+- [ ] L'intitulé décrit la fonction du lien. 
 </details> 
 
 
