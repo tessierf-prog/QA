@@ -118,7 +118,11 @@
 - [ ] Le site est intégralement utilisable au clavier. 
 - [ ] La navigation au clavier s'effectue dans un ordre prévisible. 
 </details> 
+<details>
+<summary><h2>Présentation</h2></summary>
 
+- [ ] 
+</details> 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
 ---
