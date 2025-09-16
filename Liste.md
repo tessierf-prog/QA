@@ -4,8 +4,8 @@
 
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
-- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html).
-- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) et [CSS](./exemples/css/abbreviation.css).
+- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html)
+- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) - [CSS](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
@@ -14,8 +14,8 @@
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
-- [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  Voir `exemples/html/referrers.html`
-- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Voir `exemples/html/target_blank.html`
+- [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  [HTML](./exemples/html/referrers.html)
+- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Voir [HTML](./exemples/html/target_blank.html)
 - [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 </details>
 <details>
@@ -40,7 +40,7 @@
 <details>
 <summary><h2>Formulaires</h2></summary>
 
-- Exemples : `exemples/html/formulaire.html`
+[Exemples HTML](./exemples/html/formulaire.html)
 - [ ] L'étiqutte de chaque champs indique, le cas échéant
     - le format de saisie attentu
     - Sensible à la case
@@ -76,7 +76,7 @@
 <details>
 <summary><h2>Images et médias</h2></summary>
 
-- Exemples : `exemples/html/images.html`
+[Exemples HTML](./exemples/html/images.html)
 - [ ] Règle 1.1.1 d'accessibilité sur les alternatives textuels  (note: faire test automatique)
 - [ ] Le rôle des images décoratives est déclaré. 
 - [ ] Les images complexes fournissent une descrition longue. 
@@ -90,7 +90,7 @@
 <details>
 <summary><h2>Liens</h2></summary>
 
-- Exemples : `exemples/html/liens.html`
+[Exemples HTML](./exemples/html/liens.html)
 - [ ] Pas de lien sans intitulé textuel.
 - [ ] L'intitulé décrit la fonction du lien. 
 - [ ] Les liens de même nature ont des couleurs, formes et comportements sont identiques sur toutes les pages.
@@ -107,7 +107,7 @@
 <details>
 <summary><h2>Navigation</h2></summary>
 
-- Exemples : `exemples/html/navigation.html`
+[Exemples HTML](./exemples/html/navigation.html)
 - [ ] Il est possible de revenir à la page d'accueil depuis toutes les pages. 
 - [ ] Fil d'arianne: Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site.
 - [ ] Les items actifs de menu sont signalés.
