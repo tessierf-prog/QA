@@ -137,6 +137,28 @@
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 ---
 # WCAG AA
+## Principe 1 - Percevable
+- [ ] Fournir une alternative textuelle pour tout contenu non textuel afin de garantir une accessibilité équivalente.
+- [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
+- [ ] Fournir des sous-titres pour les contenus audio préenregistrés.
+- [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
+- [ ] Veiller à ce que la structure et les relations du contenu soient clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
+- [ ] Veiller à ce que le contenu suive un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
+- [ ] Évitez de vous fier uniquement à des caractéristiques sensorielles telles que la forme, la couleur ou le son pour donner des instructions.
+- [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
+- [ ] Veiller à ce que les champs de saisie soient clairement identifiés par leur fonction.
+- [ ] Ne vous fiez pas uniquement à la couleur pour transmettre des informations ou des actions.
+- [ ] Offrir un moyen de mettre en pause ou de contrôler le son qui est lu automatiquement pendant plus de 3 secondes.
+- [ ] Veiller à ce que le texte et les images du texte aient un rapport de contraste d'au moins 4,5:1.
+- [ ] Permet de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
+- [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
+- [ ] Veiller à ce que le contenu reste fonctionnel sans défilement bidimensionnel.
+- [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
+- [ ] Permettre des ajustements de style de texte sans perte de contenu ou de fonctionnalité.
+- [ ] Veillez à ce que le contenu déclenché par le survol ou la mise en évidence soit gérable et dissociable.
+## Principe 2 Exploitable
+
+
 
 
 
