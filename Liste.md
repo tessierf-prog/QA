@@ -1,4 +1,4 @@
-# Qualité et inclusion
+# Assurance qualité
 <details>  
 <summary><h2>Contenu</h2></summary>
 
@@ -136,7 +136,7 @@
 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 ---
-# WCAG AA
+# Accessibilité - WCAG AA
 
 <details>
 <summary><h2>Principe 1 - Percevable</h2></summary>
@@ -160,8 +160,6 @@
 - [ ] Permettre des ajustements de style de texte sans perte de contenu ou de fonctionnalité.
 - [ ] Veillez à ce que le contenu déclenché par le survol ou la mise en évidence soit gérable et dissociable.
 </details> 
-
-## Principe 2 - Exploitable
 <details>
 <summary><h2>Principe 2 - Exploitablee</h2></summary>
 - [ ]
