@@ -88,7 +88,8 @@
 <details>
 <summary><h2>Liens</h2></summary>
 
-- [ ] règle 1
+- Résumé : `exemples/html/liens.html`
+- [ ] Pas de lien sans intitulé textuel et l'intitulé décrit la fonction du lien. 
 </details> 
 
 
