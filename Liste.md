@@ -1,4 +1,4 @@
-# Qualité
+# Qualité et inclusion
 <details>  
 <summary><h2>Contenu</h2></summary>
 
@@ -15,7 +15,7 @@
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
 - [ ] La déconnexion des services privés est facilement accessible.
 - [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  [HTML](./exemples/html/referrers.html)
-- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Voir [HTML](./exemples/html/target_blank.html)
+- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. [HTML](./exemples/html/target_blank.html)
 - [ ] L'objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 </details>
 <details>
@@ -136,49 +136,13 @@
 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 ---
-# Accessibilité
+# WCAG AA
 
-<details>
-<summary><h2>1. Perception</h2></summary>
 
-### 1.1 Alternatives textuelles
-#### 1.1.1 
-- [ ] Offrir une alternative textuelle pour les contenus non-textuels
-### 1.2 Audio / Vidéo
-#### 1.2.1
-- [ ] Offrir une transcription pour les contenus temporels (audio et vidéo)
-### 1.3 Adaptable
-#### 1.3.1
-- [ ] Les informations, la structure et les relations entre les éléments sont perceptibles. 
-    - Titres et sous-titres
-    - Tableaux : voir `exemples/html/tableau.html`
-    - Formulaires : voir `exemples/html/formulaire.html`
-    - balissage sémantique (header, nav, article, section)
-#### 1.3.2
-- [ ] La représentation des contenus est cohérente avec l'ordre dans lequel ils sont codés
-    - HTML suit une structure logique
-    - Ne pas utiliser CSS ou JS pour réorganiser visuellement
-    - Titre > Sous-titre > Paragraphe
-#### 1.3.3 
-- [ ] Les instructions pour utiliser le site ne repose pas sur des caractéristiques sensoriels
-    - Formes
-    - Couleurs
-    - Taille
-#### 1.3.4
- - [ ] Les buts des entrées de formulaire sont identifiés dans le code
-    - Étiquettes (labels) explicites
-    - Utilisation de aria-label
-### 1.4 Distinguable
-- [ ] L'utilisation de la couleur n'est pas le seul moyen pour transmettre l'information.
-- [ ] Les fichiers audios sont lus en offrant des controles (pause ou stop et volume)
-- [ ] Les couleurs de textes sont présentés avec un ratio de contraste 4.5:1 avec leur arrière-plan.
-- [ ] Les textes et les images peuvent être redimentionnés jusqu'à 200% sans perte de contenu ou de fonctionalité et sans nécessiter un défilement horizontal ET vertical
-- [ ] Outre les logos, les images ne présentent pas du texte
-- [ ] Les éléments visuels qui ne sont pas du texte (boutons, icones, cases à cocher) sont présentés avec un contraste suffisant avec leur arrière-plan (3:1)
-- [ ] Les espacements dans le texte facilite la lecture. Voir : `exemples/css/typographie.css`
-</details> 
 
-##### Références : https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html
+##### Références 
+- https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html
+- https://innowise.com/fr/blog/wcag-21-aa/
 
 ## Validation
 Responsable QA : à venir
