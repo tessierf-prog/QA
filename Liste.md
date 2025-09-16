@@ -4,8 +4,8 @@
 
 - [ ] Les nouveaux contenus sont facilement identifiables.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
-- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [Voir l'exemple](./exemples/html/description.html)  `./exemples/html/description.html`.
-- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. Voir `exemples/html/abreviation.html` et `exemples/css/abbreviation.css`.
+- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html).
+- [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) et [CSS](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
 </details>
