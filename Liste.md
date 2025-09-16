@@ -99,9 +99,25 @@
 - [ ] Un style différent est appliqué aux liens visités.
 - [ ] Les liens externes et internes sont différenciés.
 - [ ] Les liens qui lancent un logiciel différent ont un libellé explicite.
-- [ ] Les numéros de téléphone sont activables via le protocole approprié. 
+- [ ] Les numéros de téléphone sont activables via le protocole approprié.
+- [ ] Le format des fichiers proposés en téléchargement est indiqué. 
+- [ ] La taille des fichiers internes proposés en téléchargement est indiquée. 
+- [ ] Tous les liens internes du site sont valides. (test automatique)
 </details> 
+<details>
+<summary><h2>Navigation</h2></summary>
 
+- Exemples : `exemples/html/navigation.html`
+- [ ] Il est possible de revenir à la page d'accueil depuis toutes les pages. 
+- [ ] Fil d'arianne: Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site.
+- [ ] Les items actifs de menu sont signalés.
+- [ ] Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages. 
+- [ ] Les icônes de navigation sont accompagnées d'une légende explicite.
+- [ ] Les fenêtres modales sont dotées d'un bouton de fermeture explicite. 
+- [ ] Le focus clavier n'est ni supprimé ni masqué. 
+- [ ] Le site est intégralement utilisable au clavier. 
+- [ ] La navigation au clavier s'effectue dans un ordre prévisible. 
+</details> 
 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
 
