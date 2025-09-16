@@ -93,6 +93,13 @@
 - Exemples : `exemples/html/liens.html`
 - [ ] Pas de lien sans intitulé textuel.
 - [ ] L'intitulé décrit la fonction du lien. 
+- [ ] Les liens de même nature ont des couleurs, formes et comportements sont identiques sur toutes les pages.
+- [ ] Le soulignement est réservé aux liens.
+- [ ] Les liens se démarquent visuellement du reste du contenu.
+- [ ] Un style différent est appliqué aux liens visités.
+- [ ] Les liens externes et internes sont différenciés.
+- [ ] Les liens qui lancent un logiciel différent ont un libellé explicite.
+- [ ] Les numéros de téléphone sont activables via le protocole approprié. 
 </details> 
 
 
