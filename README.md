@@ -1,11 +1,11 @@
-# Acessibilité
+# Accessibilité et Qualité
 Guide d'assurance qualité et d'accessibilité pour les produits numériques développés à la SOFAD.
 
 ## Buts
-- Assurer la qualité des produits numériques ;
+- Assurer la qualité constante des produits numériques ;
 - Viser l'accessibilité universelle ;
 - Offrir une source collaborative et commune ;
-- Standardisation des pratiques d'intégration ;
+- Standardiser certaines pratiques d'intégration ;
 
 ## Contenus
 - `Liste.md` présente les critères d'acceptation ;
