@@ -3,6 +3,8 @@
 <summary><h2>Contenu</h2></summary>
 
 - [ ] Les nouveaux contenus sont facilement identifiables.
+    - [Badges de Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/)
+    - [Badges de Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html)
 - [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) - [CSS](./exemples/css/abbreviation.css).
@@ -131,7 +133,14 @@
 <details>
 <summary><h2>Sécurité</h2></summary>
 
-- [ ] sec 
+- [ ] HTTPS
+    - Toutes les pages utilisent le protocole HTTPS.
+    - Les certificats de sécurité sont signés et en cours de validité. 
+    - Les pages utilisant HTTPS ont un en-tête de transport strict. 
+    - Les pages utilisant le protocole HTTPS ne proposent pas de ressources http.
+- [ ] Mot de passe
+    - Les mots de passe peuvent être choisis ou changés par l'utilisateur. 
+    - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit. 
 </details> 
 
 ##### Références : https://checklists.opquast.com/en/web-quality-assurance/
