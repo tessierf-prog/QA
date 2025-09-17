@@ -1,4 +1,4 @@
-# Qualité & inclusion
+# Acessibilité
 Guide d'assurance qualité et d'accessibilité pour les produits numériques développés à la SOFAD.
 
 ## Buts
@@ -15,4 +15,4 @@ Guide d'assurance qualité et d'accessibilité pour les produits numériques dé
 
 ---
 Contributeurices
-- François Tessier (tesssief@sofad.qc.ca - ephthe@gmail.com)
+- François Tessier (tesssief@sofad.qc.ca)
