@@ -161,8 +161,18 @@
 - [ ] Veillez à ce que le contenu déclenché par le survol ou la mise en évidence soit gérable et dissociable.
 </details> 
 <details>
-<summary><h2>Principe 2 - Exploitablee</h2></summary>
-- [ ]
+<summary><h2>Principe 2 - Exploitable</h2></summary>
+- [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
+- [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
+- [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
+- [ ] Pour les contenus mobiles, clignotants, défilants ou à mise à jour automatique, les utilisateurs doivent pouvoir les mettre en pause, les arrêter ou les masquer.
+- [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
+- [ ] Veiller à ce que les pages web aient des titres qui décrivent leur sujet ou leur objectif.
+- [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
+- [ ] Veillez à ce que l'objectif de chaque lien ressorte clairement de son texte ou de son contexte.
+- [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
+- [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
+- [ ] Veiller à ce que l'indicateur de mise au point du clavier soit visible pour toutes les interfaces fonctionnant avec un clavier.
 </details> 
 
 
@@ -172,4 +182,3 @@
 - https://innowise.com/fr/blog/wcag-21-aa/
 
 ## Validation
-Responsable QA : à venir
