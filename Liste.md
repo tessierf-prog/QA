@@ -162,6 +162,7 @@
 </details> 
 <details>
 <summary><h2>Principe 2 - Exploitable</h2></summary>
+
 - [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
 - [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
 - [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
@@ -173,8 +174,31 @@
 - [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
 - [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
 - [ ] Veiller à ce que l'indicateur de mise au point du clavier soit visible pour toutes les interfaces fonctionnant avec un clavier.
+- [ ] Autoriser l'utilisation d'un seul pointeur pour les gestes, à moins que cela ne soit essentiel.
+- [ ] Permettre aux utilisateurs d'annuler des actions à l'aide d'un simple pointeur.
+- [ ] Veiller à ce que les étiquettes des composants de l'interface utilisateur correspondent au texte visible.
 </details> 
+<details>
+<summary><h2>Principe 3 - Compréhensible</h2></summary>
 
+- [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
+- [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
+- [ ] L'accent mis sur les composants de l'interface utilisateur ne doit pas modifier le contexte.
+- [ ] La modification des paramètres de l'interface utilisateur ne devrait pas modifier le contexte sans avis préalable.
+- [ ] Veillez à ce que l'ordre de navigation soit cohérent d'une page à l'autre.
+- [ ] Maintenir une identification cohérente pour les composants ayant la même fonction.
+- [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.
+- [ ] Fournir des étiquettes ou des instructions lorsque l'utilisateur doit intervenir.
+- [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
+- [ ] Mettre en œuvre des mesures pour éviter les erreurs dans les actions juridiques, financières ou de modification des données.
+</details>
+<details>
+<summary><h2>Principe 4 - Robustesse</h2></summary>
+
+- [ ] Veiller à ce que les éléments aient des balises complètes, qu'ils soient correctement imbriqués, qu'ils aient des identifiants uniques et qu'il n'y ait pas de doublons.
+- [ ] Rendre les noms, les rôles, les états et les valeurs des composants de l'interface utilisateur accessibles par programme.
+- [ ] Veiller à ce que les messages d'état puissent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et qu'ils soient accessibles sans focalisation.
+</details> 
 
 
 ##### Références 
