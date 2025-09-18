@@ -69,7 +69,7 @@
 
 ## Images et médias
 [Exemples HTML](./exemples/html/images.html)
-- [ ] Règle 1.1.1 d'accessibilité sur les alternatives textuels  (note: faire test automatique)
+- [ ] Alternatives textuels  (note: faire test automatique Playwright)
 - [ ] Le rôle des images décoratives est déclaré. 
 - [ ] Les images complexes fournissent une descrition longue. 
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
