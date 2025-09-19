@@ -83,7 +83,7 @@
 
 ## Liens
 [Exemples HTML](./exemples/html/liens.html)
-- [ ] Pas de lien sans intitulé textuel.
+- [ ] Ajouter un intitulé textuel aux liens.
 - [ ] L'intitulé décrit la fonction du lien. 
 - [ ] Les liens de même nature ont des couleurs, formes et comportements qui sont identiques sur toutes les pages.
 - [ ] Le soulignement est réservé aux liens.
@@ -92,7 +92,7 @@
 - [ ] Les liens externes et internes sont différenciés.
 - [ ] Les liens qui lancent un logiciel différent (pdf) ont un libellé explicite.
 - [ ] Les numéros de téléphone sont activables via le protocole approprié.
-    Exemple :   
+    Exemple :   `<a href="tel:+15145551234" title="Appelez-nous au 1 514 555-1234">+1 (514) 555-1234</a>`
 - [ ] Le format des fichiers proposés en téléchargement est indiqué. 
 - [ ] La taille des fichiers internes proposés en téléchargement est indiquée. 
 - [ ] Tous les liens internes du site sont valides. (test automatique)
