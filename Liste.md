@@ -1,7 +1,7 @@
 # Assurance qualité
 
 ## Contenu
-- [ ] Les nouveaux contenus sont facilement identifiables.  Par exemple, avec les badges ou les pills:
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Par exemple, avec les badges ou les pills:
     - [Badges de Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/)
     - [Badges de Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages dans le pied de page.
@@ -9,6 +9,7 @@
 - [ ]  La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) - [CSS](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés, de pages retournées et le nombre de résultats par page.
+- [ ] S'assurez qu'il n'y a pas de pages sans issue, pages sans appel à l'action ou lien vers d'autres pages. 
 
 ## Données personnelles
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages.
@@ -84,13 +85,14 @@
 [Exemples HTML](./exemples/html/liens.html)
 - [ ] Pas de lien sans intitulé textuel.
 - [ ] L'intitulé décrit la fonction du lien. 
-- [ ] Les liens de même nature ont des couleurs, formes et comportements sont identiques sur toutes les pages.
+- [ ] Les liens de même nature ont des couleurs, formes et comportements qui sont identiques sur toutes les pages.
 - [ ] Le soulignement est réservé aux liens.
 - [ ] Les liens se démarquent visuellement du reste du contenu.
 - [ ] Un style différent est appliqué aux liens visités.
 - [ ] Les liens externes et internes sont différenciés.
-- [ ] Les liens qui lancent un logiciel différent ont un libellé explicite.
+- [ ] Les liens qui lancent un logiciel différent (pdf) ont un libellé explicite.
 - [ ] Les numéros de téléphone sont activables via le protocole approprié.
+    Exemple :   
 - [ ] Le format des fichiers proposés en téléchargement est indiqué. 
 - [ ] La taille des fichiers internes proposés en téléchargement est indiquée. 
 - [ ] Tous les liens internes du site sont valides. (test automatique)
@@ -173,9 +175,10 @@
 <summary><h2>Principe 3 - Compréhensible</h2></summary>
 
 - [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
+    - Exemple : `<html lang="fr">`
 - [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
-- [ ] L'accent mis sur les composants de l'interface utilisateur ne doit pas modifier le contexte.
-- [ ] La modification des paramètres de l'interface utilisateur ne devrait pas modifier le contexte sans avis préalable.
+    - Exemple : `<p lang="en">This paragraph is in English.</p>`
+- [ ] Quand on change un réglage dans une interface (langue, thème, ou taille du texte), ça ne devrait pas déclencher d'autres changements importants sans prévenir l'utilisateur.
 - [ ] Veillez à ce que l'ordre de navigation soit cohérent d'une page à l'autre.
 - [ ] Maintenir une identification cohérente pour les composants ayant la même fonction.
 - [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.

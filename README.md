@@ -6,6 +6,8 @@ Guide d'assurance qualité et d'accessibilité pour les produits numériques dé
 - Viser l'accessibilité universelle ;
 - Offrir une source collaborative et commune ;
 - Standardiser certaines pratiques d'intégration ;
+- Démontrer la réputation de la SOFAD ;
+- Réduction des coûts et temps requis par la production ;
 
 ## Contenus
 - [Liste.md](./Liste.md) présente les critères d'acceptation ;
