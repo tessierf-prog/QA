@@ -3,12 +3,12 @@
 ## Contenu
 
 - [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [badges/pills Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [badges/pills Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
-- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages (dans le pied de page).
-- [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html)
-- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) - [CSS](./exemples/css/abbreviation.css).
+- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
+- [ ] Le code source de chaque page contient une [métadonnée qui décrit le contenu](./exemples/html/description.html).
+- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [CSS](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
-- [ ] S'assurez qu'il n'y a pas de pages sans issue, pages sans appel à l'action ou lien vers d'autres pages.
+- [ ] S'assurez qu'il n'y a pas de pages sans issue, pages sans CTA ou lien vers d'autres pages.
 
 ## Données personnelles
 
@@ -20,7 +20,7 @@
 
 ## Commerce
 
-- [ ] Possible d'acheter un produit ou service sans création de compte.
+- [ ] Possible d'acheter sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
 - [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
 - [ ] Les frais de livraison sont indiqués avant la validation finale de la commande.
@@ -46,22 +46,13 @@
   - Limite de caractères
 - [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
-- [ ] Des avertissements sont présentés pour un formulaire qui accompagne un processus complexe ou multi-étapes :
-  - Nature des données ou documents exigés
-  - Liste des étapes
-  - L'étape en cours
-  - Les étapes permettent de revenir à l'étape précédente
-  - Les conséquences d'utiliser la navigation par l'historique sont expliquées (pertes en cas d'utilisation du bouton "Retour")
 - [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable.
 - [ ] Les différents types de champs de saisie sont identifiés.
 
 ## Identification et contact
 
-- [ ] Le titre de chaque page est sous le format :
-  - Le contenu de la page
-  - Séparateur, tiret moyen (`-`)
-  - Nom du site
-- [ ] Chaque page contient un appel valide à une icône de favori (note: faire test automatique).
+- [ ] Le titre de chaque page est sous le format : `<title>Contenu de la page - Nom du site</title>`
+- [ ] Chaque page contient un appel valide à une icône de favori.
 - [ ] L'adresse complète et les numéros de téléphone sont disponibles depuis toutes les pages du site.
 - [ ] Le site propose au moins deux moyens de contact.
 - [ ] Le délai de réponse est indiqué.
@@ -72,7 +63,7 @@
 
 [Exemples HTML](./exemples/html/images.html)
 
-- [ ] Le rôle des images décoratives est déclaré. `<img src=\"decorative.png\" role=\"presentation\">`
+- [ ] Le rôle des images décoratives est déclaré :  `<img src=\"decorative.png\" role=\"presentation\">`
 - [ ] Les images complexes fournissent une descrition longue.
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
 - [ ] Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.
