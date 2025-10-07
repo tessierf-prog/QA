@@ -40,14 +40,10 @@
 
 [Exemples HTML](./exemples/html/formulaire.html)
 
-- [ ] L'étiqutte de chaque champs indique, le cas échéant :
-  - le format de saisie attentu
-  - Sensibilité à la case
-  - Limite de caractères
 - [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
 - [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable.
-- [ ] Les différents types de champs de saisie sont identifiés.
+- [ ] Les différents types de champs de saisie sont identifiés (email, password, number, tel).
 
 ## Identification et contact
 
