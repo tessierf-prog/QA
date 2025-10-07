@@ -2,10 +2,10 @@
 
 ## Contenu
 
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [badges/pills Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [badges/pills Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
 - [ ] Le code source de chaque page contient une [métadonnée qui décrit le contenu](./exemples/html/description.html).
-- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [CSS](./exemples/css/abbreviation.css).
+- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [Lisibilité](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
 - [ ] S'assurez qu'il n'y a pas de pages sans issue, pages sans CTA ou lien vers d'autres pages.
@@ -14,8 +14,8 @@
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
 - [ ] La déconnexion des services privés est facilement accessible.
-- [ ] Les en-têtes retournés spécifient la politique de communication des referrers.  [HTML](./exemples/html/referrers.html)
-- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. [HTML](./exemples/html/target_blank.html)
+- [ ] Les en-têtes retournés spécifient la politique de communication des [referrers](./exemples/html/referrers.html).
+- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
 - [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 
 ## Commerce
