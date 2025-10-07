@@ -200,8 +200,8 @@
 
 ### Références 
 
-[OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
-[W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
-[Traduction des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
+- [OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
+- [W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
+- [Traduction des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
 
 
