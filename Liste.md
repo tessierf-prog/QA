@@ -2,7 +2,7 @@
 
 ## Contenu
 
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil ([badges/pills Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), badges/pills Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges))
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [badges/pills Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [badges/pills Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages (dans le pied de page).
 - [ ] Le code source de chaque page contient une métadonnée qui décrit le contenu.  [HTML](./exemples/html/description.html)
 - [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification. [HTML](./exemples/html/abreviation.html) - [CSS](./exemples/css/abbreviation.css).
@@ -72,8 +72,7 @@
 
 [Exemples HTML](./exemples/html/images.html)
 
-- [ ] Alternatives textuels  (note: faire test automatique Playwright)
-- [ ] Le rôle des images décoratives est déclaré.
+- [ ] Le rôle des images décoratives est déclaré. `<img src=\"decorative.png\" role=\"presentation\">`
 - [ ] Les images complexes fournissent une descrition longue.
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
 - [ ] Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.
@@ -196,10 +195,8 @@
 
 ---
 
-### Références 
+### Références
 
 - [OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
 - [W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
 - [Traduction des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
-
-
