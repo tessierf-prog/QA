@@ -59,12 +59,9 @@
 
 [Exemples HTML](./exemples/html/images.html)
 
-- [ ] Le rôle des images décoratives est déclaré :  `<img src=\"decorative.png\" role=\"presentation\">`
+- [ ] Le rôle des images décoratives est déclaré.
 - [ ] Les images complexes fournissent une descrition longue.
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
-- [ ] Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.
-- [ ] Les vidéos comportent des sous-titres synchronisés.
-- [ ] La durée des contenus vidéo ou audio est indiquée.
 - [ ] Les vidéos et les audios sont toujours déclanchés par l'utilisateurice.
 - [ ] Les animations, sons et clignotements peuvent être mis en pause.
 
@@ -81,10 +78,9 @@
 - [ ] Les liens externes et internes sont différenciés.
 - [ ] Les liens qui lancent un logiciel différent (pdf) ont un libellé explicite.
 - [ ] Les numéros de téléphone sont activables via le protocole approprié.
-    Exemple :   `<a href="tel:+15145551234" title="Appelez-nous au 1 514 555-1234">+1 (514) 555-1234</a>`
 - [ ] Le format des fichiers proposés en téléchargement est indiqué.
 - [ ] La taille des fichiers internes proposés en téléchargement est indiquée.
-- [ ] Tous les liens internes du site sont valides. (test automatique)
+- [ ] Tous les liens internes du site sont valides.
 
 ## Navigation
 
