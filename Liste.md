@@ -8,13 +8,6 @@
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
 
-## Données personnelles
-
-- [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
-- [ ] Les en-têtes retournés spécifient la politique de communication des [referrers](./exemples/html/referrers.html).
-- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
-- [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
-
 ## Formulaires
 
 [Exemples HTML](./exemples/html/formulaire.html)
@@ -118,7 +111,7 @@
 - [ ] Rendre les noms, les rôles, les états et les valeurs des composants de l'interface utilisateur accessibles par programme.
 - [ ] Veiller à ce que les messages d'état puissent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et qu'ils soient accessibles sans focalisation.
 
-## Sécurité
+## Sécurité & données personnelles
 
 - [ ] HTTPS
   - Toutes les pages utilisent le protocole HTTPS.
@@ -128,6 +121,10 @@
 - [ ] Mot de passe
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
+- [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
+- [ ] Les en-têtes retournés spécifient la politique de communication des [referrers](./exemples/html/referrers.html).
+- [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
+- [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 
 ## Commerce
 
