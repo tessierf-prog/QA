@@ -133,9 +133,6 @@
 <details>
   <summary>Si applicable</summary>
 
-
-  <div markdown="1">
-
   ```markdown
 
 - [ ] Possible d'acheter sans création de compte.
@@ -153,7 +150,7 @@
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
-</div>
+
 
 </details>
 
