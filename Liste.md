@@ -15,26 +15,6 @@
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
 - [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 
-## Commerce
-<details>
-  <summary>Si applicable</summary>
-- [ ] Possible d'acheter sans création de compte.
-- [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
-- [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
-- [ ] Les frais de livraison sont indiqués avant la validation finale de la commande.
-- [ ] Les modalités de récupération d'une clé d'accès sont précisées avant la commande.
-- [ ] Le panier permet de modifier la quantité des articles, l'ajout ou la supression avant la validation finale de la commande.
-- [ ] La fiche produit comporte toutes les caractéristiques quantifiables.
-- [ ] Le sous-total détaillé est indiqué avant la validation finale de la commande.
-- [ ] Les conditions de garantie et du service après-vente sont clairement indiquées.
-- [ ] Les moyens de paiement acceptés et les procédures sont indiqués.
-- [ ] L'identité des prestataires impliqués dans les transactions est précisée.
-- [ ] L'adresse et les conditions de retour sont indiquées.
-- [ ] Les conditions de remboursement sont indiquées.
-- [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
-- [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
-</details>
-
 ## Formulaires
 
 [Exemples HTML](./exemples/html/formulaire.html)
@@ -148,6 +128,27 @@
 - [ ] Mot de passe
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
+
+## Commerce
+<details>
+  <summary>Si applicable</summary>
+  ```markdown
+- [ ] Possible d'acheter sans création de compte.
+- [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
+- [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
+- [ ] Les frais de livraison sont indiqués avant la validation finale de la commande.
+- [ ] Les modalités de récupération d'une clé d'accès sont précisées avant la commande.
+- [ ] Le panier permet de modifier la quantité des articles, l'ajout ou la supression avant la validation finale de la commande.
+- [ ] La fiche produit comporte toutes les caractéristiques quantifiables.
+- [ ] Le sous-total détaillé est indiqué avant la validation finale de la commande.
+- [ ] Les conditions de garantie et du service après-vente sont clairement indiquées.
+- [ ] Les moyens de paiement acceptés et les procédures sont indiqués.
+- [ ] L'identité des prestataires impliqués dans les transactions est précisée.
+- [ ] L'adresse et les conditions de retour sont indiquées.
+- [ ] Les conditions de remboursement sont indiquées.
+- [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
+- [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
+</details>
 
 ---
 
