@@ -1,5 +1,5 @@
 # Assurance qualité & Accessibilité
- 
+
 ## Contenu
 
 - [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
@@ -129,12 +129,9 @@
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
 
-## Commerce
+
 <details>
-  <summary>Si applicable</summary>
-
-  ```markdown
-
+  <summary>Commerce</summary>
 - [ ] Possible d'acheter sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
 - [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
@@ -150,8 +147,6 @@
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
-
-  ```markdown
 </details>
 
 ---
