@@ -1,19 +1,16 @@
-# Assurance qualité
-
+# Assurance qualité & Accessibilité
+ 
 ## Contenu
 
 - [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
-- [ ] Le code source de chaque page contient une [métadonnée qui décrit le contenu](./exemples/html/description.html).
 - [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [Lisibilité](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
-- [ ] S'assurez qu'il n'y a pas de pages sans issue, pages sans CTA ou lien vers d'autres pages.
 
 ## Données personnelles
 
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
-- [ ] La déconnexion des services privés est facilement accessible.
 - [ ] Les en-têtes retournés spécifient la politique de communication des [referrers](./exemples/html/referrers.html).
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
 - [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
@@ -44,6 +41,9 @@
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
 - [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable.
 - [ ] Les différents types de champs de saisie sont identifiés (email, password, number, tel).
+- [ ] Veiller à ce que les champs de saisie soient clairement identifiés par leur fonction.
+- [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.
+- [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
 
 ## Identification et contact
 
@@ -64,6 +64,12 @@
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
 - [ ] Les vidéos et les audios sont toujours déclanchés par l'utilisateurice.
 - [ ] Les animations, sons et clignotements peuvent être mis en pause.
+- [ ] Les fichiers audio répondent à ces critères : 48 000 Hz, Stéréo, 256 kbps
+- [ ] Les fichiers vidéo sont enregistrés en format MP4 (H.264), codec audio AAC
+- [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
+- [ ] Fournir des sous-titres pour les contenus audio préenregistrés.
+- [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
+- [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
 
 ## Liens
 
@@ -96,7 +102,7 @@
 - [ ] Le site est intégralement utilisable au clavier.
 - [ ] La navigation au clavier s'effectue dans un ordre prévisible.
 
-## Présentation
+## Présentation et Interface
 
 - [ ] La charte graphique est conhérente et constante.
 - [ ] L'information n'est pas véhiculée uniquement par la couleur.
@@ -104,6 +110,31 @@
 - [ ] La taille des éléments cliquables est suffisante (44px X 44px).
 - [ ] Les styles ne justifient pas le texte.
 - [ ] Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles.
+- [ ] Veiller à ce que la structure et les relations du contenu soient clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
+- [ ] Veiller à ce que le contenu suive un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
+- [ ] Évitez de vous fier uniquement à des caractéristiques sensorielles telles que la forme, la couleur ou le son pour donner des instructions.
+- [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
+- [ ] Ne vous fiez pas uniquement à la couleur pour transmettre des informations ou des actions.
+- [ ] Veiller à ce que le texte et les images du texte aient un rapport de contraste d'au moins 4,5:1.
+- [ ] Permet de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
+- [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
+- [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
+- [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
+- [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
+- [ ] Pour les contenus mobiles, clignotants, défilants ou à mise à jour automatique, les utilisateurs doivent pouvoir les mettre en pause, les arrêter ou les masquer.
+- [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
+- [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
+- [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
+- [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
+- [ ] Veiller à ce que les étiquettes des composants de l'interface utilisateur correspondent au texte visible.
+- [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
+- [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
+- [ ] Quand on change un réglage dans une interface (langue, thème, ou taille du texte), ça ne devrait pas déclencher d'autres changements importants sans prévenir l'utilisateur.
+- [ ] Veillez à ce que l'ordre de navigation soit cohérent d'une page à l'autre.
+- [ ] Maintenir une identification cohérente pour les composants ayant la même fonction.
+- [ ] Veiller à ce que les éléments aient des balises complètes, qu'ils soient correctement imbriqués, qu'ils aient des identifiants uniques et qu'il n'y ait pas de doublons.
+- [ ] Rendre les noms, les rôles, les états et les valeurs des composants de l'interface utilisateur accessibles par programme.
+- [ ] Veiller à ce que les messages d'état puissent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et qu'ils soient accessibles sans focalisation.
 
 ## Sécurité
 
@@ -115,66 +146,6 @@
 - [ ] Mot de passe
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
-
----
-
-## Accessibilité
-
-## Principe 1 - Percevable
-
-- [ ] Fournir une alternative textuelle pour tout contenu non textuel afin de garantir une accessibilité équivalente.
-- [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
-- [ ] Fournir des sous-titres pour les contenus audio préenregistrés.
-- [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
-- [ ] Veiller à ce que la structure et les relations du contenu soient clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
-- [ ] Veiller à ce que le contenu suive un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
-- [ ] Évitez de vous fier uniquement à des caractéristiques sensorielles telles que la forme, la couleur ou le son pour donner des instructions.
-- [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
-- [ ] Veiller à ce que les champs de saisie soient clairement identifiés par leur fonction.
-- [ ] Ne vous fiez pas uniquement à la couleur pour transmettre des informations ou des actions.
-- [ ] Offrir un moyen de mettre en pause ou de contrôler le son qui est lu automatiquement pendant plus de 3 secondes.
-- [ ] Veiller à ce que le texte et les images du texte aient un rapport de contraste d'au moins 4,5:1.
-- [ ] Permet de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
-- [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
-- [ ] Veiller à ce que le contenu reste fonctionnel sans défilement bidimensionnel.
-- [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
-- [ ] Permettre des ajustements de style de texte sans perte de contenu ou de fonctionnalité.
-- [ ] Veillez à ce que le contenu déclenché par le survol ou la mise en évidence soit gérable et dissociable.
-
-## Principe 2 - Exploitable
-
-- [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
-- [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
-- [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
-- [ ] Pour les contenus mobiles, clignotants, défilants ou à mise à jour automatique, les utilisateurs doivent pouvoir les mettre en pause, les arrêter ou les masquer.
-- [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
-- [ ] Veiller à ce que les pages web aient des titres qui décrivent leur sujet ou leur objectif.
-- [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
-- [ ] Veillez à ce que l'objectif de chaque lien ressorte clairement de son texte ou de son contexte.
-- [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
-- [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
-- [ ] Veiller à ce que l'indicateur de mise au point du clavier soit visible pour toutes les interfaces fonctionnant avec un clavier.
-- [ ] Autoriser l'utilisation d'un seul pointeur pour les gestes, à moins que cela ne soit essentiel.
-- [ ] Permettre aux utilisateurs d'annuler des actions à l'aide d'un simple pointeur.
-- [ ] Veiller à ce que les étiquettes des composants de l'interface utilisateur correspondent au texte visible.
-
-## Principe 3 - Compréhensible
-
-- [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
-- [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
-- [ ] Quand on change un réglage dans une interface (langue, thème, ou taille du texte), ça ne devrait pas déclencher d'autres changements importants sans prévenir l'utilisateur.
-- [ ] Veillez à ce que l'ordre de navigation soit cohérent d'une page à l'autre.
-- [ ] Maintenir une identification cohérente pour les composants ayant la même fonction.
-- [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.
-- [ ] Fournir des étiquettes ou des instructions lorsque l'utilisateur doit intervenir.
-- [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
-- [ ] Mettre en œuvre des mesures pour éviter les erreurs dans les actions juridiques, financières ou de modification des données.
-
-## Principe 4 - Robustesse
-
-- [ ] Veiller à ce que les éléments aient des balises complètes, qu'ils soient correctement imbriqués, qu'ils aient des identifiants uniques et qu'il n'y ait pas de doublons.
-- [ ] Rendre les noms, les rôles, les états et les valeurs des composants de l'interface utilisateur accessibles par programme.
-- [ ] Veiller à ce que les messages d'état puissent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et qu'ils soient accessibles sans focalisation.
 
 ---
 
