@@ -129,9 +129,10 @@
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
 
+## Commerce
 
 <details>
-  <summary>Commerce</summary>
+  <summary>Si applicable</summary>
 - [ ] Possible d'acheter sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
 - [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
