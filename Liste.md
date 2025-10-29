@@ -33,7 +33,7 @@
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
-</detrails>
+</details>
 
 ## Formulaires
 
