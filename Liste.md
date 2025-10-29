@@ -2,15 +2,13 @@
 
 ## Contenu
 
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.  Ex: [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/), [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.
 - [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
 - [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [Lisibilité](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
 
 ## Formulaires
-
-[Exemples HTML](./exemples/html/formulaire.html)
 
 - [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
@@ -19,6 +17,8 @@
 - [ ] Veiller à ce que les champs de saisie soient clairement identifiés par leur fonction.
 - [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.
 - [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
+
+[HTML](./exemples/html/formulaire.html)
 
 ## Identification et contact
 
@@ -32,8 +32,6 @@
 
 ## Images et médias
 
-[Exemples HTML](./exemples/html/images.html)
-
 - [ ] Le rôle des images décoratives est déclaré.
 - [ ] Les images complexes fournissent une descrition longue.
 - [ ] Les vignettes ne sont pas des images redimentionées côté client.
@@ -46,9 +44,9 @@
 - [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
 - [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
 
-## Liens
+[HTML](./exemples/html/images.html)
 
-[Exemples HTML](./exemples/html/liens.html)
+## Liens
 
 - [ ] Ajouter un intitulé textuel aux liens.
 - [ ] L'intitulé décrit la fonction du lien.
@@ -63,9 +61,9 @@
 - [ ] La taille des fichiers internes proposés en téléchargement est indiquée.
 - [ ] Tous les liens internes du site sont valides.
 
-## Navigation
+[HTML](./exemples/html/liens.html)
 
-[Exemples HTML](./exemples/html/navigation.html)
+## Navigation
 
 - [ ] Il est possible de revenir à la page d'accueil depuis toutes les pages.
 - [ ] Fil d'arianne: Chaque page affiche une information permettant de connaître son emplacement dans l'arborescence du site.
@@ -76,6 +74,8 @@
 - [ ] Le focus clavier n'est ni supprimé ni masqué.
 - [ ] Le site est intégralement utilisable au clavier.
 - [ ] La navigation au clavier s'effectue dans un ordre prévisible.
+
+[HTML](./exemples/html/navigation.html)
 
 ## Présentation et Interface
 
@@ -122,7 +122,7 @@
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
-- [ ] Les en-têtes retournés spécifient la politique de communication des [referrers](./exemples/html/referrers.html).
+- [ ] Les en-têtes retournés spécifient la politique de communication des referrers. Ex : `<meta name="referrer" content="strict-origin-when-cross-origin">`
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
 - [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 
@@ -154,3 +154,11 @@
 - [OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
 - [W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
 - [Traduction des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
+
+---
+
+### Exemples
+
+- Nouveau contenus :
+  -  [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/)
+  -  [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
