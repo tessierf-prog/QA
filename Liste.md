@@ -16,7 +16,8 @@
 - [ ] Les objectifs et limitations lors d'un refus pour les cookies sont expliqués.
 
 ## Commerce
-
+<details>
+  <summary>Si applicable</summary>
 - [ ] Possible d'acheter sans création de compte.
 - [ ] Le détail des articles qui sont dans le panier sont disponible à même le panier.
 - [ ] Le délai de livraison est indiqué avant la validation finale de la commande.
@@ -32,6 +33,7 @@
 - [ ] Les conditions de remboursement sont indiquées.
 - [ ] Les prix affichés mentionnent le détail des taxes et le prix sans taxe.
 - [ ] Les produits indisponibles font l'objet d'une différenciation visuelle **et** textuelle.
+</detrails>
 
 ## Formulaires
 
