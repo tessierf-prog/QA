@@ -2,23 +2,21 @@
 
 ## Contenu
 
-- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.
-- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
-- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne [accès à sa signification](./exemples/html/abreviation.html). [Lisibilité](./exemples/css/abbreviation.css).
+- [ ] La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification [HTML](./exemples/html/abreviation.html). [CSS](./exemples/css/abbreviation.css).
 - [ ] Un lexique ou un glossaire adapté au public explique le vocabulaire sectoriel et technique.
 - [ ] La page des résultats de recherche indique le nombre de résultats trouvés et le nombre de résultats par page.
-
+- [ ] Les nouveaux contenus sont facilement identifiables à partir de la page d'accueil.
+- [ ] Les informations relatives aux droits d'auteur sont disponibles depuis toutes les pages.
+  
 ## Formulaires
 
-- [ ] Les caractères d'un champs de mot de passe peuvent être affichés en clair.
 - [ ] La page affichée suite à l'envoi du formulaire permet de reprendre directement la navigation.
 - [ ] Les listes d'options de formulaires sont présentées dans un ordre identifiable.
 - [ ] Les différents types de champs de saisie sont identifiés (email, password, number, tel).
-- [ ] Veiller à ce que les champs de saisie soient clairement identifiés par leur fonction.
-- [ ] Permet la détection automatique des erreurs et une description textuelle de l'erreur.
+- [ ] Permettre la détection automatique des erreurs et une description textuelle de l'erreur.
 - [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
 
-[HTML](./exemples/html/formulaire.html)
+[Exemples](./exemples/html/formulaire.html)
 
 ## Identification et contact
 
@@ -44,7 +42,7 @@
 - [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
 - [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
 
-[HTML](./exemples/html/images.html)
+[Exemples HTML](./exemples/html/images.html)
 
 ## Liens
 
@@ -61,7 +59,7 @@
 - [ ] La taille des fichiers internes proposés en téléchargement est indiquée.
 - [ ] Tous les liens internes du site sont valides.
 
-[HTML](./exemples/html/liens.html)
+[Exemples HTML](./exemples/html/liens.html)
 
 ## Navigation
 
@@ -75,9 +73,9 @@
 - [ ] Le site est intégralement utilisable au clavier.
 - [ ] La navigation au clavier s'effectue dans un ordre prévisible.
 
-[HTML](./exemples/html/navigation.html)
+[Exemples HTML](./exemples/html/navigation.html)
 
-## Présentation et Interface
+## Présentation & Interface
 
 - [ ] La charte graphique est conhérente et constante.
 - [ ] L'information n'est pas véhiculée uniquement par la couleur.
@@ -101,7 +99,6 @@
 - [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
 - [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
 - [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
-- [ ] Veiller à ce que les étiquettes des composants de l'interface utilisateur correspondent au texte visible.
 - [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
 - [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
 - [ ] Quand on change un réglage dans une interface (langue, thème, ou taille du texte), ça ne devrait pas déclencher d'autres changements importants sans prévenir l'utilisateur.
@@ -113,14 +110,12 @@
 
 ## Sécurité & données personnelles
 
-- [ ] HTTPS
-  - Toutes les pages utilisent le protocole HTTPS.
-  - Les certificats de sécurité sont signés et en cours de validité.
-  - Les pages utilisant HTTPS ont un en-tête de transport strict.
-  - Les pages utilisant le protocole HTTPS ne proposent pas de ressources http.
+- [ ] Toutes les pages utilisent le protocole HTTPS.
+- [ ] Les pages utilisant le protocole HTTPS ne proposent pas de ressources http.
 - [ ] Mot de passe
   - Les mots de passe peuvent être choisis ou changés par l'utilisateur.
   - Un dispositif sensibilise l'utilisateur sur le degré de sécurisation du mot de passe qu'il choisit.
+  - Le mot de passe peut être vu "en clair".
 - [ ] La politque de confidentialité et vie privée est disponible depuis toutes les pages (dans le pied de page).
 - [ ] Les en-têtes retournés spécifient la politique de communication des referrers. Ex : `<meta name="referrer" content="strict-origin-when-cross-origin">`
 - [ ] Les liens externes qui ouvrent une nouvelle fenêtre ne partagent pas d'information de contexte. Ex : `target="_blank" rel="noopener noreferrer"`
@@ -153,12 +148,13 @@
 
 - [OpQuast](https://checklists.opquast.com/en/web-quality-assurance/)
 - [W3C WCAG](https://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
-- [Traduction des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
+- [Traduction française des critères AA](https://innowise.com/fr/blog/wcag-21-aa/)
 
 ---
 
-### Exemples
 
-- Nouveau contenus :
+### Mise en pratique
+
+- Identification de nouveaux contenus :
   -  [Bootstrap](https://getbootstrap.com/docs/5.0/components/badge/)
   -  [Tailwind](https://tailwindcss.com/plus/ui-blocks/application-ui/elements/badges)
