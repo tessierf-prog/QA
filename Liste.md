@@ -34,7 +34,7 @@
 - [ ] Les images complexes fournissent une descrition longue pour mieux en saisir le sens.
 - [ ] Les thumbnails ne sont pas des images redimentionées côté client.
 - [ ] Les vidéos et les audios sont toujours déclanchés par l'utilisateurice.
-- [ ] Les animations, sons et clignotements peuvent être mis en pause.
+- [ ] Pour les contenus mobiles, clignotants, défilants ou à mise à jour automatique, les utilisateurs doivent pouvoir les mettre en pause, les arrêter ou les masquer.
 - [ ] Les fichiers audio répondent à ces critères : 48 000 Hz, Stéréo, 256 kbps
 - [ ] Les fichiers vidéo sont enregistrés en format MP4 (H.264), codec audio AAC
 - [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
@@ -80,30 +80,27 @@
 - [ ] La taille des éléments cliquables est suffisante (44px X 44px).
 - [ ] Les styles ne justifient pas le texte.
 - [ ] Les mises en majuscules à des fins décoratives sont effectuées à l'aide des styles.
-- [ ] Veiller à ce que la structure et les relations du contenu soient clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
-- [ ] Veiller à ce que le contenu suive un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
-- [ ] Évitez de vous fier uniquement à des caractéristiques sensorielles telles que la forme, la couleur ou le son pour donner des instructions.
+- [ ] La structure et les relations du contenu sont clairement codées ou disponibles sous forme de texte pour les technologies d'assistance.
+- [ ] Le contenu suit un ordre de lecture logique que les technologies d'assistance peuvent interpréter correctement.
+- [ ] Ne pas dépendre uniquement à des caractéristiques sensorielles (forme, couleur, son) pour donner des instructions ou trasmettre des informations.
 - [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
-- [ ] Ne vous fiez pas uniquement à la couleur pour transmettre des informations ou des actions.
-- [ ] Veiller à ce que le texte et les images du texte aient un rapport de contraste d'au moins 4,5:1.
+- [ ] Le texte et les images du texte doivent avoir un rapport de contraste d'au moins 4,5:1.
 - [ ] Permettre de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
-- [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
-- [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
+- [ ] Les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
 - [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
 - [ ] Si les raccourcis clavier utilisent des caractères, les utilisateurs doivent pouvoir les désactiver, les remapper ou les éviter.
-- [ ] Pour les contenus mobiles, clignotants, défilants ou à mise à jour automatique, les utilisateurs doivent pouvoir les mettre en pause, les arrêter ou les masquer.
 - [ ] Fournir un moyen de contourner le contenu répété sur plusieurs pages.
 - [ ] Veiller à ce que les éléments focalisables soient mis en évidence dans un ordre logique qui préserve le sens et la fonctionnalité.
 - [ ] Fournir plusieurs moyens de localiser une page dans un ensemble de pages, à l'exception des étapes du processus.
-- [ ] Veiller à ce que les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
-- [ ] Veiller à ce que la langue par défaut de la page web soit identifiable par programmation.
-- [ ] Veiller à ce que la langue de chaque passage ou phrase soit identifiable dans le code, à l'exception des noms propres et des termes techniques.
-- [ ] Quand on change un réglage dans une interface (langue, thème, ou taille du texte), ça ne devrait pas déclencher d'autres changements importants sans prévenir l'utilisateur.
-- [ ] Veillez à ce que l'ordre de navigation soit cohérent d'une page à l'autre.
+- [ ] Les titres et les étiquettes décrivent clairement leur sujet ou leur objectif.
+- [ ] La langue par défaut de la page web est identifiable par programmation.
+- [ ] La langue de chaque passage ou phrase est identifiable dans le code, à l'exception des noms propres et des termes techniques.
+- [ ] Si l'utilisateurice change un réglage dans l'interface (langue, thème, ou taille du texte), ça ne pas déclenche pas d'autres changements sans prévenir l'utilisateur.
+- [ ] L'ordre de navigation est cohérent d'une page à l'autre.
 - [ ] Maintenir une identification cohérente pour les composants ayant la même fonction.
-- [ ] Veiller à ce que les éléments aient des balises complètes, qu'ils soient correctement imbriqués, qu'ils aient des identifiants uniques et qu'il n'y ait pas de doublons.
+- [ ] S'assurer que les éléments aient des balises complètes, qu'ils soient correctement imbriqués, qu'ils aient des identifiants uniques.
 - [ ] Rendre les noms, les rôles, les états et les valeurs des composants de l'interface utilisateur accessibles par programme.
-- [ ] Veiller à ce que les messages d'état puissent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et qu'ils soient accessibles sans focalisation.
+- [ ] Les messages d'état (alert) doivent être détectés de manière programmatique par les agents utilisateurs et les technologies d'assistance, et sont accessibles sans focalisation.
 
 ## Sécurité & données personnelles
 
