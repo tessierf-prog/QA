@@ -16,7 +16,7 @@
 - [ ] Permettre la détection automatique des erreurs et une description textuelle de l'erreur.
 - [ ] Proposer des suggestions pour corriger les erreurs de saisie, à moins que cela ne compromette la sécurité ou l'objectif.
 
-[Exemples](./exemples/html/formulaire.html)
+[Exemples HTML](./exemples/html/formulaire.html)
 
 ## Identification et contact
 
@@ -30,17 +30,16 @@
 
 ## Images et médias
 
-- [ ] Le rôle des images décoratives est déclaré.
-- [ ] Les images complexes fournissent une descrition longue.
-- [ ] Les vignettes ne sont pas des images redimentionées côté client.
+- [ ] Le rôle des images décoratives est déclaré explicitement.
+- [ ] Les images complexes fournissent une descrition longue pour mieux en saisir le sens.
+- [ ] Les thumbnails ne sont pas des images redimentionées côté client.
 - [ ] Les vidéos et les audios sont toujours déclanchés par l'utilisateurice.
 - [ ] Les animations, sons et clignotements peuvent être mis en pause.
 - [ ] Les fichiers audio répondent à ces critères : 48 000 Hz, Stéréo, 256 kbps
 - [ ] Les fichiers vidéo sont enregistrés en format MP4 (H.264), codec audio AAC
 - [ ] Proposer des alternatives pour les supports audio ou vidéo préenregistrés.
-- [ ] Fournir des sous-titres pour les contenus audio préenregistrés.
-- [ ] Proposer une description audio ou un média alternatif pour les contenus vidéo préenregistrés.
-- [ ] Dans la mesure du possible, évitez d'utiliser des images de texte.
+- [ ] Fournir des sous-titres pour les contenus préenregistrés.
+- [ ] Ne pas utiliser des images de texte.
 
 [Exemples HTML](./exemples/html/images.html)
 
@@ -53,10 +52,9 @@
 - [ ] Les liens se démarquent visuellement du reste du contenu.
 - [ ] Un style différent est appliqué aux liens visités.
 - [ ] Les liens externes et internes sont différenciés.
-- [ ] Les liens qui lancent un logiciel différent (pdf) ont un libellé explicite.
+- [ ] Les liens qui lancent un logiciel différent ont un libellé explicite.
 - [ ] Les numéros de téléphone sont activables via le protocole approprié.
-- [ ] Le format des fichiers proposés en téléchargement est indiqué.
-- [ ] La taille des fichiers internes proposés en téléchargement est indiquée.
+- [ ] Le format et la taille des fichiers proposés en téléchargement sont indiqués.
 - [ ] Tous les liens internes du site sont valides.
 
 [Exemples HTML](./exemples/html/liens.html)
@@ -68,10 +66,9 @@
 - [ ] Les items actifs de menu sont signalés.
 - [ ] Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages.
 - [ ] Les icônes de navigation sont accompagnées d'une légende explicite.
-- [ ] Les fenêtres modales sont dotées d'un bouton de fermeture explicite.
+- [ ] Les fenêtres modales sont dotées d'un bouton de fermeture et un intitulé explicite.
+- [ ] Le site permet la navigation au clavier et elle s'effectue dans un ordre prévisible.
 - [ ] Le focus clavier n'est ni supprimé ni masqué.
-- [ ] Le site est intégralement utilisable au clavier.
-- [ ] La navigation au clavier s'effectue dans un ordre prévisible.
 
 [Exemples HTML](./exemples/html/navigation.html)
 
@@ -89,7 +86,7 @@
 - [ ] Le contenu doit être utilisable dans les deux orientations, portrait et paysage, sauf si l'une d'entre elles est essentielle.
 - [ ] Ne vous fiez pas uniquement à la couleur pour transmettre des informations ou des actions.
 - [ ] Veiller à ce que le texte et les images du texte aient un rapport de contraste d'au moins 4,5:1.
-- [ ] Permet de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
+- [ ] Permettre de redimensionner le texte jusqu'à 200% sans perte de contenu ou de fonctionnalité.
 - [ ] Veiller à ce que les éléments non textuels présentent un rapport de contraste d'au moins 3:1 par rapport aux couleurs adjacentes.
 - [ ] Veiller à ce que tout le contenu soit utilisable au moyen d'un clavier sans exigences particulières en matière de délais.
 - [ ] Prévenir les pièges à clavier et veiller à ce que l'attention puisse être déplacée à l'aide du clavier.
